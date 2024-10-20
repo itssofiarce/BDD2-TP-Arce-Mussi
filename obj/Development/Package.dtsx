@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="16"
-  DTS:VersionGUID="{035FF681-A531-4116-A508-C632BD2F21AF}">
+  DTS:VersionBuild="28"
+  DTS:VersionGUID="{DB685970-57E5-4AB6-9BF6-5EBAAD5AA54D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,8 +29,18 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrx3tHzeWE+G0ReVkv90RgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAeK0jKClSWCe1oEGT3ZZKRUQzdaU8WIwHYRsnKXDINGwAAAAAOgAAAAAIAACAAAADVcCuePXPzsLp4hWV1nKPQtcHIgnzpDpFpmaOfMx1WtCAAAADLs1H265WcoHQcJvEYDXUMxlX4EqmwPn1bDaLqm+5dPkAAAAA0cVf5SRL3kR8AH4MFmY1XVCjsJ0dugpEtv9KDXFtKyZuQNUAt2bITkvhJPPPjNI2O7K+iZpkIVLYHkH7/M1MH</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrx3tHzeWE+G0ReVkv90RgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAVr6L9mMeY5SEE7l7Xv//e+EIze80bLq4Hg0SVFryyPwAAAAAOgAAAAAIAACAAAADLzeJeHT399Vt5Erm82jqP4rvOzKDXVqoL2RO+T65X5iAAAABhEEbmgzfuwZdjyZ9xToEvhMqJDl7IaLz9OfqoDZ5bAEAAAABlbZ2XEdeoqlSZB5dmLj65XztX2xNR20PFELOvuu5J+2S9CPVI/ldMvPwpI7xyIcL3nGeh1Tf+yr18MjDHvGSB</DTS:Password>
         </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[arggf.ddns.net.tuia_alumnos]"
+      DTS:CreationName="ODBC"
+      DTS:DTSID="{91D97991-2028-49F8-8E67-A4C2F5386963}"
+      DTS:ObjectName="arggf.ddns.net.tuia_alumnos">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="server=arggf.ddns.net;uid=tuia_alumnos;Dsn=MySQL Billing TP;port=3306;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -46,7 +56,22 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrx3tHzeWE+G0ReVkv90RgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADXlGWjeckqgQZCJEJmj4fvQ+KIqbKV7pnnjedHaCcxsAAAAAAOgAAAAAIAACAAAAAQkIqnlMGGPQhz71C0pp8WB270HdCO8xwkd9nZREoGcCAAAABQhcvbYYBxOiOoDDfHOhNhbfzVG7YbhMqnOMzHiAxV1UAAAAAPJut3Onghi3v1U28YiPzreY0k4QNc4gQNAfldUjk7gpjbWnBrATm2wQ9jyvgtYRl1FOo6npYqii0GiGnP6Uxx</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrx3tHzeWE+G0ReVkv90RgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABHkPSPhTljqCwzt5YjvWgo4yGr6Nw3BPq/HCEqVYW9FwAAAAAOgAAAAAIAACAAAAAaNgPUlFtaiRMHsJmaincRRee1/ftoLDG80rxQiK3DQSAAAABDv1EEZITMOju3+TIzOCktJITBUMJIwdqfVo9Q3EtSpEAAAACjSUUh9Dib2MsMX0D0YE2gNaXdqkgLt9RxBvGYVeli5BGbbOYvb6cKpRppS3YLtcbWHI0vsOeyHgvQ25WOJV3S</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[arggf.ddns.net.tuia_alumnos 1]"
+      DTS:CreationName="ODBC"
+      DTS:DTSID="{FD0261E4-5086-4DEF-BE81-247429B110E3}"
+      DTS:ObjectName="arggf.ddns.net.tuia_alumnos 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="server=arggf.ddns.net;uid=tuia_alumnos;Dsn=MySQL Billing TP;port=3306;">
+          <DTS:Password
+            DTS:Name="pwd"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrx3tHzeWE+G0ReVkv90RgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABCtdaQJIl3EGQbIIZpTn0K5txPAj3KKp9OR7UWvGwD2gAAAAAOgAAAAAIAACAAAADaxaX33+ocpN+g7G5P7L3lXhvrNsjj6zblHf4B6K93WyAAAAB7Qd6u4HCIplNiiYvla/ujeW0tDUiZySKuf3KC+UictUAAAADWehZp6JFRKYmbJd8cYjOBx6u9BwqTw9OC2RvPT0z+zybY0GrFuiajnSMDHFBrE/J54aY2O4RWaa7H0kScGPcS</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -109,6 +134,52 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 1]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{F3A1C9F0-53EB-4371-92C4-693D8C3ABE10}"
+      DTS:ObjectName="Flat File Connection Manager 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x007C_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\Administrator\OneDrive\Documentos\Sofia\AI\SEGUNDO AÑO\BDD 2\Fuentes de datos TP-20240928T133857Z-001\Fuentes de datos TP\Stock.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Producto_ID"
+              DTS:DTSID="{4618EA3E-3906-46B2-87E4-40404F715F7B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Fecha_Stock"
+              DTS:DTSID="{D1D9486B-7D48-4D88-8033-20039E0F69A6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Cantidad_Stock"
+              DTS:DTSID="{53B88999-E717-4CC7-B596-F30009C1D6A0}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[localhost.bd_staging_2024_G07]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{B4F30021-1F49-4982-9E23-93AC5924D649}"
@@ -130,6 +201,16 @@
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
           DTS:ConnectionString="Data Source=localhost;User ID=admin;Initial Catalog=staging_2024;Provider=MSOLEDBSQL.1;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[MySQL Billing TP]"
+      DTS:CreationName="ODBC"
+      DTS:DTSID="{CAF580B2-548B-4AE0-A019-A623FCA4CEE1}"
+      DTS:ObjectName="MySQL Billing TP">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Dsn=MySQL Billing TP;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -185,6 +266,36 @@
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[TP BDD Sales]"
+      DTS:CreationName="ODBC"
+      DTS:DTSID="{241A4CDB-E184-4805-8061-0D6B168213D8}"
+      DTS:ObjectName="TP BDD Sales">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Dsn=TP BDD Sales;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[TP BDD Sales 1]"
+      DTS:CreationName="ADO.NET:System.Data.Odbc.OdbcConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{0A1B344C-6A28-4F40-A5D6-40021215BC5A}"
+      DTS:ObjectName="TP BDD Sales 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Dsn=TP BDD Sales;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[TP BDD Sales 2]"
+      DTS:CreationName="ADO.NET:System.Data.Odbc.OdbcConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{87543ADA-8926-4F10-B06A-E164B2CC6A9E}"
+      DTS:ObjectName="TP BDD Sales 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Dsn=TP BDD Sales;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -1547,6 +1658,409 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Carga MySQL Billing"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{420636FC-3BB9-4224-BC8C-935280B19920}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Carga MySQL Billing"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql"
+              componentClassID="Microsoft.SSISODBCSrc"
+              contactInfo="ODBC Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="ODBC Source"
+              name="Carga Stage Billing Mysql"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="The name of the table to be fetched."
+                  expressionType="Notify"
+                  name="TableName">billing</property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from sales.billing</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specify the number of rows fetched per batch."
+                  expressionType="Notify"
+                  name="BatchSize">1000</property>
+                <property
+                  dataType="System.Int32"
+                  description="Determines the chunk size allocation for LOB columns"
+                  expressionType="Notify"
+                  name="LobChunkSize">32768</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines how the component exposes CHAR columns. If False, CHAR columns are exposed as (multi-)byte strings (DT_STR), if True, CHAR columns are exposed as wide strings (DT_WSTR)"
+                  expressionType="Notify"
+                  name="ExposeCharColumnsAsUnicode">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds to wait for an SQL statement to execute before returning to the application."
+                  expressionType="Notify"
+                  name="StatementTimeout">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="The code page to use when code page information is unavailable from the data source."
+                  expressionType="Notify"
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Int32"
+                  description="The method used for fetching data."
+                  expressionType="Notify"
+                  name="FetchMethod">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="The ODBC C data type for binding numeric data."
+                  expressionType="Notify"
+                  name="BindNumericAs">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Determines how the component would bind columns of (multi)-byte string types (i.e., SQL_CHAR, SQL_VARCHAR, SQL_LONGVARCHAR). The options are: Unicode (SQL_C_WCHAR) and ANSI (SQL_C_CHAR)."
+                  expressionType="Notify"
+                  name="BindCharColumnsAs">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="The mode used to access the database."
+                  expressionType="Notify"
+                  name="AccessMode"
+                  typeConverter="AccessMode">1</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Connections[ODBCConnection]"
+                  connectionManagerID="Package.ConnectionManagers[arggf.ddns.net.tuia_alumnos]"
+                  connectionManagerRefId="Package.ConnectionManagers[arggf.ddns.net.tuia_alumnos]"
+                  description="The ODBC runtime connection used to access the database."
+                  name="ODBCConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output]"
+                  errorRowDisposition="FailComponent"
+                  name="ODBC Source Output"
+                  truncationRowDisposition="FailComponent">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[BILLING_ID]"
+                      dataType="i4"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[BILLING_ID]"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[BILLING_ID]"
+                      name="BILLING_ID" />
+                    <outputColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[REGION]"
+                      codePage="1252"
+                      dataType="str"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[REGION]"
+                      length="45"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[REGION]"
+                      name="REGION" />
+                    <outputColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[BRANCH_ID]"
+                      dataType="i4"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[BRANCH_ID]"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[BRANCH_ID]"
+                      name="BRANCH_ID" />
+                    <outputColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[DATE]"
+                      dataType="dbTimeStamp"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[DATE]"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[DATE]"
+                      name="DATE" />
+                    <outputColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[CUSTOMER_ID]"
+                      dataType="i2"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[CUSTOMER_ID]"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[CUSTOMER_ID]"
+                      name="CUSTOMER_ID" />
+                    <outputColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[EMPLOYEE_ID]"
+                      dataType="i2"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[EMPLOYEE_ID]"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[EMPLOYEE_ID]"
+                      name="EMPLOYEE_ID" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[BILLING_ID]"
+                      dataType="i4"
+                      name="BILLING_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[REGION]"
+                      codePage="1252"
+                      dataType="str"
+                      length="45"
+                      name="REGION" />
+                    <externalMetadataColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[BRANCH_ID]"
+                      dataType="i4"
+                      name="BRANCH_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[DATE]"
+                      dataType="dbTimeStamp"
+                      name="DATE" />
+                    <externalMetadataColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[CUSTOMER_ID]"
+                      dataType="i2"
+                      name="CUSTOMER_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[EMPLOYEE_ID]"
+                      dataType="i2"
+                      name="EMPLOYEE_ID" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Error Output]"
+                  isErrorOut="true"
+                  name="ODBC Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Error Output].Columns[BILLING_ID]"
+                      dataType="i4"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[BILLING_ID]"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Error Output].Columns[BILLING_ID]"
+                      name="BILLING_ID" />
+                    <outputColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Error Output].Columns[REGION]"
+                      codePage="1252"
+                      dataType="str"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[REGION]"
+                      length="45"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Error Output].Columns[REGION]"
+                      name="REGION" />
+                    <outputColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Error Output].Columns[BRANCH_ID]"
+                      dataType="i4"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[BRANCH_ID]"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Error Output].Columns[BRANCH_ID]"
+                      name="BRANCH_ID" />
+                    <outputColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Error Output].Columns[DATE]"
+                      dataType="dbTimeStamp"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[DATE]"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Error Output].Columns[DATE]"
+                      name="DATE" />
+                    <outputColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Error Output].Columns[CUSTOMER_ID]"
+                      dataType="i2"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[CUSTOMER_ID]"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Error Output].Columns[CUSTOMER_ID]"
+                      name="CUSTOMER_ID" />
+                    <outputColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Error Output].Columns[EMPLOYEE_ID]"
+                      dataType="i2"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].ExternalColumns[EMPLOYEE_ID]"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Error Output].Columns[EMPLOYEE_ID]"
+                      name="EMPLOYEE_ID" />
+                    <outputColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Carga MySQL Billing\stg_billing_mysql"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="stg_billing_mysql"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[stg_billing_mysql]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Carga MySQL Billing\stg_billing_mysql.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.bd_staging_2024_G07]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.bd_staging_2024_G07]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].Columns[BILLING_ID]"
+                      cachedDataType="i4"
+                      cachedName="BILLING_ID"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].ExternalColumns[BILLING_ID]"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[BILLING_ID]" />
+                    <inputColumn
+                      refId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].Columns[REGION]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="45"
+                      cachedName="REGION"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].ExternalColumns[REGION]"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[REGION]" />
+                    <inputColumn
+                      refId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].Columns[BRANCH_ID]"
+                      cachedDataType="i4"
+                      cachedName="BRANCH_ID"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].ExternalColumns[BRANCH_ID]"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[BRANCH_ID]" />
+                    <inputColumn
+                      refId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].Columns[DATE]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="DATE"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].ExternalColumns[DATE]"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[DATE]" />
+                    <inputColumn
+                      refId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].Columns[CUSTOMER_ID]"
+                      cachedDataType="i2"
+                      cachedName="CUSTOMER_ID"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].ExternalColumns[CUSTOMER_ID]"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[CUSTOMER_ID]" />
+                    <inputColumn
+                      refId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].Columns[EMPLOYEE_ID]"
+                      cachedDataType="i2"
+                      cachedName="EMPLOYEE_ID"
+                      externalMetadataColumnId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].ExternalColumns[EMPLOYEE_ID]"
+                      lineageId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output].Columns[EMPLOYEE_ID]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].ExternalColumns[BILLING_ID]"
+                      dataType="i4"
+                      name="BILLING_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].ExternalColumns[REGION]"
+                      codePage="1252"
+                      dataType="str"
+                      length="45"
+                      name="REGION" />
+                    <externalMetadataColumn
+                      refId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].ExternalColumns[BRANCH_ID]"
+                      dataType="i4"
+                      name="BRANCH_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].ExternalColumns[DATE]"
+                      dataType="dbTimeStamp"
+                      name="DATE" />
+                    <externalMetadataColumn
+                      refId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].ExternalColumns[CUSTOMER_ID]"
+                      dataType="i2"
+                      name="CUSTOMER_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input].ExternalColumns[EMPLOYEE_ID]"
+                      dataType="i2"
+                      name="EMPLOYEE_ID" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Carga MySQL Billing\stg_billing_mysql.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga MySQL Billing\stg_billing_mysql.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Carga MySQL Billing\stg_billing_mysql.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Carga MySQL Billing\stg_billing_mysql.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Carga MySQL Billing\stg_billing_mysql.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Carga MySQL Billing.Paths[ODBC Source Output]"
+              endId="Package\Carga MySQL Billing\stg_billing_mysql.Inputs[OLE DB Destination Input]"
+              name="ODBC Source Output"
+              startId="Package\Carga MySQL Billing\Carga Stage Billing Mysql.Outputs[ODBC Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Carga Productos"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
@@ -2676,6 +3190,325 @@
         </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Carga Stock"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{57B40EA4-CD4E-42CE-9102-D61981E9894B}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Carga Stock"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Carga Stock\Flat File Source"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1033"
+              name="Flat File Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Carga Stock\Flat File Source.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager 1]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Output].Columns[Producto_ID]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Producto_ID]"
+                      length="50"
+                      lineageId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Output].Columns[Producto_ID]"
+                      name="Producto_ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Output].Columns[Fecha_Stock]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Fecha_Stock]"
+                      length="50"
+                      lineageId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Output].Columns[Fecha_Stock]"
+                      name="Fecha_Stock"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Output].Columns[Cantidad_Stock]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Cantidad_Stock]"
+                      length="50"
+                      lineageId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Output].Columns[Cantidad_Stock]"
+                      name="Cantidad_Stock"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Producto_ID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Producto_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Fecha_Stock]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Fecha_Stock" />
+                    <externalMetadataColumn
+                      refId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Cantidad_Stock]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Cantidad_Stock" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Carga Stock\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[OLE DB Destination]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Carga Stock\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.bd_staging_2024_G07]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.bd_staging_2024_G07]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Carga Stock\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga Stock\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Producto_ID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Producto_ID"
+                      externalMetadataColumnId="Package\Carga Stock\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Producto_ID]"
+                      lineageId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Output].Columns[Producto_ID]" />
+                    <inputColumn
+                      refId="Package\Carga Stock\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Fecha_Stock]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Fecha_Stock"
+                      externalMetadataColumnId="Package\Carga Stock\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Fecha_Stock]"
+                      lineageId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Output].Columns[Fecha_Stock]" />
+                    <inputColumn
+                      refId="Package\Carga Stock\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Cantidad_Stock]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Cantidad_Stock"
+                      externalMetadataColumnId="Package\Carga Stock\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Cantidad_Stock]"
+                      lineageId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Output].Columns[Cantidad_Stock]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Carga Stock\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Producto_ID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="Producto_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Carga Stock\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Fecha_Stock]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Fecha_Stock" />
+                    <externalMetadataColumn
+                      refId="Package\Carga Stock\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Cantidad_Stock]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Cantidad_Stock" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Carga Stock\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Carga Stock\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga Stock\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Carga Stock\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Carga Stock\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Carga Stock\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Carga Stock.Paths[Flat File Source Output]"
+              endId="Package\Carga Stock\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Flat File Source Output"
+              startId="Package\Carga Stock\Flat File Source.Outputs[Flat File Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
@@ -2702,6 +3535,14 @@
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 2"
       DTS:To="Package\Carga Regiones" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
+      DTS:CreationName=""
+      DTS:DTSID="{9AB27370-0BBC-4CEB-82F8-661CA3025556}"
+      DTS:From="Package\Carga Productos"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 3"
+      DTS:To="Package\Carga Stock" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -2716,31 +3557,59 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="155,42"
+          Id="Package\Carga Clientes"
+          TopLeft="522,224" />
+        <NodeLayout
+          Size="167,42"
+          Id="Package\Carga Empleados"
+          TopLeft="330.5,226.5" />
+        <NodeLayout
+          Size="178,42"
+          Id="Package\Carga FACT Ventas"
+          TopLeft="173.5,343.5" />
+        <NodeLayout
+          Size="155,42"
+          Id="Package\Carga MySQL Billing"
+          TopLeft="652.5,337.5" />
+        <NodeLayout
           Size="161,42"
           Id="Package\Carga Productos"
           TopLeft="420,81" />
         <NodeLayout
-          Size="167,42"
-          Id="Package\Carga Empleados"
-          TopLeft="409.5,201.5" />
+          Size="155,42"
+          Id="Package\Carga Regiones"
+          TopLeft="95.5,192.5" />
         <NodeLayout
           Size="155,42"
-          Id="Package\Carga Clientes"
-          TopLeft="699,199" />
+          Id="Package\Carga SQL Billing"
+          TopLeft="423.5,340.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="496.75,123">
+          TopLeft="485.2,123">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,78.5"
+              EndConnector="-71.2,103.5"
               Start="0,0"
-              End="0,71">
+              End="-71.2,96">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,71" />
+                    End="0,42.3157172271791" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,42.3157172271791"
+                    Point2="0,46.3157172271791"
+                    Point3="-4,46.3157172271791" />
+                  <mssgle:LineSegment
+                    End="-67.2,46.3157172271791" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-67.2,46.3157172271791"
+                    Point2="-71.2,46.3157172271791"
+                    Point3="-71.2,50.3157172271791" />
+                  <mssgle:LineSegment
+                    End="-71.2,96" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2751,30 +3620,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="526,123">
+          TopLeft="515.8,123">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="250.5,76"
+              EndConnector="83.7,101"
               Start="0,0"
-              End="250.5,68.5">
+              End="83.7,93.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.8487084870849" />
+                    End="0,41.1969800960879" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,26.8487084870849"
-                    Point2="0,30.8487084870849"
-                    Point3="4,30.8487084870849" />
+                    Point1="0,41.1969800960879"
+                    Point2="0,45.1969800960879"
+                    Point3="4,45.1969800960879" />
                   <mssgle:LineSegment
-                    End="246.5,30.8487084870849" />
+                    End="79.7,45.1969800960879" />
                   <mssgle:CubicBezierSegment
-                    Point1="246.5,30.8487084870849"
-                    Point2="250.5,30.8487084870849"
-                    Point3="250.5,34.8487084870849" />
+                    Point1="79.7,45.1969800960879"
+                    Point2="83.7,45.1969800960879"
+                    Point3="83.7,49.1969800960879" />
                   <mssgle:LineSegment
-                    End="250.5,68.5" />
+                    End="83.7,93.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2783,36 +3652,32 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="155,42"
-          Id="Package\Carga Regiones"
-          TopLeft="172.5,198.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="462.25,123">
+          TopLeft="454.6,123">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-212.25,75.5"
+              EndConnector="-281.6,69.5"
               Start="0,0"
-              End="-212.25,68">
+              End="-281.6,62">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.9867617107943" />
+                    End="0,16.8922675933971" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,21.9867617107943"
-                    Point2="0,25.9867617107943"
-                    Point3="-4,25.9867617107943" />
+                    Point1="0,16.8922675933971"
+                    Point2="0,20.8922675933971"
+                    Point3="-4,20.8922675933971" />
                   <mssgle:LineSegment
-                    End="-208.25,25.9867617107943" />
+                    End="-277.6,20.8922675933971" />
                   <mssgle:CubicBezierSegment
-                    Point1="-208.25,25.9867617107943"
-                    Point2="-212.25,25.9867617107943"
-                    Point3="-212.25,29.9867617107943" />
+                    Point1="-277.6,20.8922675933971"
+                    Point2="-281.6,20.8922675933971"
+                    Point3="-281.6,24.8922675933971" />
                   <mssgle:LineSegment
-                    End="-212.25,68" />
+                    End="-281.6,62" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2822,29 +3687,255 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="155,42"
-          Id="Package\Carga SQL Billing"
-          TopLeft="423.5,335.5" />
-        <NodeLayout
-          Size="178,42"
-          Id="Package\Carga FACT Ventas"
-          TopLeft="173.5,343.5" />
+          Size="139,42"
+          Id="Package\Carga Stock"
+          TopLeft="769.5,205.5" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 3]"
+          TopLeft="546.4,123">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="292.6,82.5"
+              Start="0,0"
+              End="292.6,75">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.8001737619461" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.8001737619461"
+                    Point2="0,24.8001737619461"
+                    Point3="4,24.8001737619461" />
+                  <mssgle:LineSegment
+                    End="288.6,24.8001737619461" />
+                  <mssgle:CubicBezierSegment
+                    Point1="288.6,24.8001737619461"
+                    Point2="292.6,24.8001737619461"
+                    Point3="292.6,28.8001737619461" />
+                  <mssgle:LineSegment
+                    End="292.6,75" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
+  <TaskHost
+    design-time-name="Package\Carga Clientes">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="145,42"
+          Id="Package\Carga Clientes\stg_customer_r"
+          TopLeft="402.5,266.5" />
+        <NodeLayout
+          Size="148,42"
+          Id="Package\Carga Clientes\carga customer w"
+          TopLeft="712,157" />
+        <NodeLayout
+          Size="139,42"
+          Id="Package\Carga Clientes\carga customer r"
+          TopLeft="405,152" />
+        <NodeLayout
+          Size="159,42"
+          Id="Package\Carga Clientes\stg_customer_w"
+          TopLeft="701.5,269.5" />
+        <EdgeLayout
+          Id="Package\Carga Clientes.Paths[cliente1]"
+          TopLeft="783.5,199">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,70.5"
+              Start="0,0"
+              End="0,63">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,63" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Clientes.Paths[cliente]"
+          TopLeft="474.75,194">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,72.5"
+              Start="0,0"
+              End="0,65">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,65" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Clientes\stg_customer_r">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Clientes\stg_customer_w">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Carga Empleados">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="144,42"
+          Id="Package\Carga Empleados\Excel Source"
+          TopLeft="262.5,77.5" />
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Carga Empleados\stg_empleados"
+          TopLeft="250.5,270.5" />
+        <EdgeLayout
+          Id="Package\Carga Empleados.Paths[Excel Source Output]"
+          TopLeft="336.75,119.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,151"
+              Start="0,0"
+              End="0,143.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,143.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Empleados\Excel Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Empleados\stg_empleados">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Carga MySQL Billing">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="205,42"
+          Id="Package\Carga MySQL Billing\Carga Stage Billing Mysql"
+          TopLeft="487,120" />
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Carga MySQL Billing\stg_billing_mysql"
+          TopLeft="508.5,223.5" />
+        <EdgeLayout
+          Id="Package\Carga MySQL Billing.Paths[ODBC Source Output]"
+          TopLeft="589.75,162">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,61.5"
+              Start="0,0"
+              End="0,54">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,54" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
   <TaskHost
     design-time-name="Package\Carga Productos">
     <LayoutInfo>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="161,42"
-          Id="Package\Carga Productos\Carga Productos"
-          TopLeft="545.5,89.5" />
-        <NodeLayout
           Size="143,42"
           Id="Package\Carga Productos\stg_producto"
           TopLeft="541.5,243.5" />
+        <NodeLayout
+          Size="161,42"
+          Id="Package\Carga Productos\Carga Productos"
+          TopLeft="545.5,89.5" />
         <EdgeLayout
           Id="Package\Carga Productos.Paths[Flat File Source Output]"
           TopLeft="626,131.5">
@@ -2884,164 +3975,6 @@
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\Carga Productos\stg_producto">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Carga Empleados">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="144,42"
-          Id="Package\Carga Empleados\Excel Source"
-          TopLeft="260.5,159.5" />
-        <NodeLayout
-          Size="177,42"
-          Id="Package\Carga Empleados\stg_empleados"
-          TopLeft="250.5,270.5" />
-        <EdgeLayout
-          Id="Package\Carga Empleados.Paths[Excel Source Output]"
-          TopLeft="335.75,201.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,69"
-              Start="0,0"
-              End="0,61.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,61.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga Empleados\Excel Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga Empleados\stg_empleados">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Carga Clientes">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="139,42"
-          Id="Package\Carga Clientes\carga customer r"
-          TopLeft="405,152" />
-        <NodeLayout
-          Size="145,42"
-          Id="Package\Carga Clientes\stg_customer_r"
-          TopLeft="402.5,266.5" />
-        <EdgeLayout
-          Id="Package\Carga Clientes.Paths[cliente]"
-          TopLeft="474.75,194">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,72.5"
-              Start="0,0"
-              End="0,65">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,65" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="148,42"
-          Id="Package\Carga Clientes\carga customer w"
-          TopLeft="712,157" />
-        <NodeLayout
-          Size="159,42"
-          Id="Package\Carga Clientes\stg_customer_w"
-          TopLeft="701.5,269.5" />
-        <EdgeLayout
-          Id="Package\Carga Clientes.Paths[cliente1]"
-          TopLeft="783.5,199">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,70.5"
-              Start="0,0"
-              End="0,63">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,63" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga Clientes\stg_customer_r">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga Clientes\stg_customer_w">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3097,13 +4030,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="157,42"
-          Id="Package\Carga SQL Billing\billing_sql"
-          TopLeft="427.5,147.5" />
-        <NodeLayout
           Size="177,42"
           Id="Package\Carga SQL Billing\stg_billing_SQL"
           TopLeft="422.5,364.5" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Carga SQL Billing\billing_sql"
+          TopLeft="427.5,147.5" />
         <EdgeLayout
           Id="Package\Carga SQL Billing.Paths[OLE DB Source Output]"
           TopLeft="508.5,189.5">
@@ -3144,6 +4077,83 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Carga SQL Billing\stg_billing_SQL">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Carga Stock">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Carga Stock\Flat File Source"
+          TopLeft="437.5,141.5" />
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Carga Stock\OLE DB Destination"
+          TopLeft="427.5,233.5" />
+        <EdgeLayout
+          Id="Package\Carga Stock.Paths[Flat File Source Output]"
+          TopLeft="515.75,183.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,50"
+              Start="0,0"
+              End="0,42.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,42.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Stock\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga MySQL Billing\Carga Stage Billing Mysql">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga MySQL Billing\stg_billing_mysql">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
