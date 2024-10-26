@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="28"
-  DTS:VersionGUID="{DB685970-57E5-4AB6-9BF6-5EBAAD5AA54D}">
+  DTS:VersionBuild="35"
+  DTS:VersionGUID="{5D04D922-CD6E-43F3-B117-E74BB356742B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrx3tHzeWE+G0ReVkv90RgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAVr6L9mMeY5SEE7l7Xv//e+EIze80bLq4Hg0SVFryyPwAAAAAOgAAAAAIAACAAAADLzeJeHT399Vt5Erm82jqP4rvOzKDXVqoL2RO+T65X5iAAAABhEEbmgzfuwZdjyZ9xToEvhMqJDl7IaLz9OfqoDZ5bAEAAAABlbZ2XEdeoqlSZB5dmLj65XztX2xNR20PFELOvuu5J+2S9CPVI/ldMvPwpI7xyIcL3nGeh1Tf+yr18MjDHvGSB</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrx3tHzeWE+G0ReVkv90RgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB2aBbxEu+8H7AEl29Jzkxq7WuCfU74HZuTWdn+sBtiYAAAAAAOgAAAAAIAACAAAAD4qQR2CecmpyE9m8aEs9PMAw//TtX0beot/r8OX2ntiSAAAACYv/wp0H56rb5yWDjr2FFVwcweTncT2LrHQ/I3am59VUAAAADjGjH8eV60EiHDBJhRMRDup5elBCT2YZB6s7vsq2gfM51ljCxL1fEyvY0APd5fFMbYjq9aZhRHhpC8SKySkMqJ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -56,7 +56,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrx3tHzeWE+G0ReVkv90RgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABHkPSPhTljqCwzt5YjvWgo4yGr6Nw3BPq/HCEqVYW9FwAAAAAOgAAAAAIAACAAAAAaNgPUlFtaiRMHsJmaincRRee1/ftoLDG80rxQiK3DQSAAAABDv1EEZITMOju3+TIzOCktJITBUMJIwdqfVo9Q3EtSpEAAAACjSUUh9Dib2MsMX0D0YE2gNaXdqkgLt9RxBvGYVeli5BGbbOYvb6cKpRppS3YLtcbWHI0vsOeyHgvQ25WOJV3S</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrx3tHzeWE+G0ReVkv90RgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACw7uPa0JNjKeFKK6qYpUpQ0gOBzIiABs6gTWaesUxt3wAAAAAOgAAAAAIAACAAAAC5NHZvUJ2sOI47ohYux+Xa15okXlvOX+q3KCL/84hzBSAAAAB8iUQEiy9W8n9o7LZdoMCWNG0L0lvKdbtNwL1cxhYcu0AAAAC56HSGmfd/Z1OL5xYH2Z7T3U8JIVKuKp4N/7kmfkpWElkZ0ayeVmkdCYfgyyhElUUw3vRvq7V+m1sOMedsf2pV</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -71,7 +71,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrx3tHzeWE+G0ReVkv90RgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABCtdaQJIl3EGQbIIZpTn0K5txPAj3KKp9OR7UWvGwD2gAAAAAOgAAAAAIAACAAAADaxaX33+ocpN+g7G5P7L3lXhvrNsjj6zblHf4B6K93WyAAAAB7Qd6u4HCIplNiiYvla/ujeW0tDUiZySKuf3KC+UictUAAAADWehZp6JFRKYmbJd8cYjOBx6u9BwqTw9OC2RvPT0z+zybY0GrFuiajnSMDHFBrE/J54aY2O4RWaa7H0kScGPcS</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrx3tHzeWE+G0ReVkv90RgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAKewfmun9s6f3n50ilG1hj3IETbIwz9c7VYQtM7HqmNAAAAAAOgAAAAAIAACAAAABtu5jzdUPuFxvi3ZwKx0BbhtCqwL11PFKo4I0IC3yR8iAAAAC2iWwFzGKcJNeNc16Xtyqj62Rs1xZD18ouRbx1qyQUekAAAAADuf3RZQ2V8T8H3v/AvrOOn9/25PWUidgmf8NwAL6DtbMN0pV/IDgLG6G4u+GovS2d7a48ZUymiZ+fcUIAajhc</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -866,7 +866,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[stg_customer]</property>
+                  name="OpenRowset">[dbo].[stg_customer_r]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -3369,7 +3369,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[OLE DB Destination]</property>
+                  name="OpenRowset">[dbo].[stg_stock]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -3509,40 +3509,167 @@
         </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Truncate Cliente"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{CD5A5F1B-B020-40E5-A36B-267F7C3AFD9C}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Truncate Cliente"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{B4F30021-1F49-4982-9E23-93AC5924D649}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE [bd_staging_2024_G07].[dbo].[stg_customer_r];&#xA;&#xA;TRUNCATE TABLE [bd_staging_2024_G07].[dbo].[stg_customer_w];" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Truncate Empleados"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{C073971E-05FD-457E-B196-DBE9AD2B9E68}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Truncate Empleados"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="2">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{B4F30021-1F49-4982-9E23-93AC5924D649}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE [bd_staging_2024_G07].[dbo].[stg_empleados]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Truncate MySQL"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{6e029ee7-a8a7-4b98-a74e-d0c3da714141}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Truncate MySQL"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="3">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{B4F30021-1F49-4982-9E23-93AC5924D649}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE [bd_staging_2024_G07].[dbo].[stg_billing_mysql]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Truncate Productos"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{318688d5-f9bc-43ae-9b4b-0a2e1604403c}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Truncate Productos"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{B4F30021-1F49-4982-9E23-93AC5924D649}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE [bd_staging_2024_G07].[dbo].[stg_producto]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Truncate Regiones"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{F3D058A1-3A02-46FA-B0F2-B5FA3997E816}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Truncate Regiones"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="4">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{B4F30021-1F49-4982-9E23-93AC5924D649}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE bd_staging_2024_G07.dbo.stg_regions" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Truncate SQL"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{c049071c-311f-4469-9e9a-d7a92235c610}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Truncate SQL"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="5">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{B4F30021-1F49-4982-9E23-93AC5924D649}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE [bd_staging_2024_G07].[dbo].[stg_billing_SQL]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Truncate Stock"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{87588924-3c5a-4298-baa1-34d208e687b3}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Truncate Stock"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="6">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{B4F30021-1F49-4982-9E23-93AC5924D649}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE [bd_staging_2024_G07].[dbo].stg_stock" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
-      DTS:DTSID="{E881D7C8-14F1-4871-BB2C-D4DF4F8D193E}"
-      DTS:From="Package\Carga Productos"
+      DTS:DTSID="{B59CE60B-421A-4DF3-8262-18BE808B8EC5}"
+      DTS:From="Package\Truncate Empleados"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
       DTS:To="Package\Carga Empleados" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
-      DTS:DTSID="{6A70E94B-7D58-4574-B00E-68B96E99D06B}"
-      DTS:From="Package\Carga Productos"
+      DTS:DTSID="{632DB999-1850-4AE3-8B00-2D528B258787}"
+      DTS:From="Package\Truncate Cliente"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
       DTS:To="Package\Carga Clientes" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
-      DTS:DTSID="{87AA1874-F262-4026-A1DF-629DE9572F2C}"
-      DTS:From="Package\Carga Productos"
+      DTS:DTSID="{AD91520D-E0F5-41CB-B659-FC059EF8E524}"
+      DTS:From="Package\Truncate Productos"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 2"
-      DTS:To="Package\Carga Regiones" />
+      DTS:To="Package\Carga Productos" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
       DTS:CreationName=""
-      DTS:DTSID="{9AB27370-0BBC-4CEB-82F8-661CA3025556}"
-      DTS:From="Package\Carga Productos"
+      DTS:DTSID="{CF0A5220-9EFC-4BA1-B689-83044EFD282F}"
+      DTS:From="Package\Truncate Regiones"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 3"
-      DTS:To="Package\Carga Stock" />
+      DTS:To="Package\Carga Regiones" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
+      DTS:CreationName=""
+      DTS:DTSID="{67C16E47-988F-4F87-A7FC-C866DA2D0E53}"
+      DTS:From="Package\Truncate SQL"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 4"
+      DTS:To="Package\Carga SQL Billing" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -3555,129 +3682,57 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="155,42"
+          Size="152,42"
           Id="Package\Carga Clientes"
-          TopLeft="522,224" />
+          TopLeft="566,241" />
         <NodeLayout
           Size="167,42"
           Id="Package\Carga Empleados"
-          TopLeft="330.5,226.5" />
+          TopLeft="322.5,255.5" />
         <NodeLayout
           Size="178,42"
           Id="Package\Carga FACT Ventas"
-          TopLeft="173.5,343.5" />
+          TopLeft="200.5,395.5" />
         <NodeLayout
           Size="155,42"
           Id="Package\Carga MySQL Billing"
-          TopLeft="652.5,337.5" />
+          TopLeft="704.5,427" />
         <NodeLayout
           Size="161,42"
           Id="Package\Carga Productos"
-          TopLeft="420,81" />
+          TopLeft="449.5,94.25" />
         <NodeLayout
           Size="155,42"
           Id="Package\Carga Regiones"
-          TopLeft="95.5,192.5" />
+          TopLeft="123.214285714286,258.071428571429" />
         <NodeLayout
           Size="155,42"
           Id="Package\Carga SQL Billing"
-          TopLeft="423.5,340.5" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="485.2,123">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-71.2,103.5"
-              Start="0,0"
-              End="-71.2,96">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,42.3157172271791" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,42.3157172271791"
-                    Point2="0,46.3157172271791"
-                    Point3="-4,46.3157172271791" />
-                  <mssgle:LineSegment
-                    End="-67.2,46.3157172271791" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-67.2,46.3157172271791"
-                    Point2="-71.2,46.3157172271791"
-                    Point3="-71.2,50.3157172271791" />
-                  <mssgle:LineSegment
-                    End="-71.2,96" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          TopLeft="465.5,423.75" />
+        <NodeLayout
+          Size="139,42"
+          Id="Package\Carga Stock"
+          TopLeft="820.25,230" />
+        <NodeLayout
+          Size="173,42"
+          Id="Package\Truncate Cliente"
+          TopLeft="558.5,160.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="515.8,123">
+          TopLeft="643.5,202.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="83.7,101"
+              EndConnector="0,38.5"
               Start="0,0"
-              End="83.7,93.5">
+              End="0,31">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,41.1969800960879" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,41.1969800960879"
-                    Point2="0,45.1969800960879"
-                    Point3="4,45.1969800960879" />
-                  <mssgle:LineSegment
-                    End="79.7,45.1969800960879" />
-                  <mssgle:CubicBezierSegment
-                    Point1="79.7,45.1969800960879"
-                    Point2="83.7,45.1969800960879"
-                    Point3="83.7,49.1969800960879" />
-                  <mssgle:LineSegment
-                    End="83.7,93.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="454.6,123">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-281.6,69.5"
-              Start="0,0"
-              End="-281.6,62">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.8922675933971" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.8922675933971"
-                    Point2="0,20.8922675933971"
-                    Point3="-4,20.8922675933971" />
-                  <mssgle:LineSegment
-                    End="-277.6,20.8922675933971" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-277.6,20.8922675933971"
-                    Point2="-281.6,20.8922675933971"
-                    Point3="-281.6,24.8922675933971" />
-                  <mssgle:LineSegment
-                    End="-281.6,62" />
+                    End="0,31" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3687,35 +3742,121 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="139,42"
-          Id="Package\Carga Stock"
-          TopLeft="769.5,205.5" />
+          Size="170,42"
+          Id="Package\Truncate Empleados"
+          TopLeft="318,171" />
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="546.4,123">
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="404.5,213">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="292.6,82.5"
+              EndConnector="0,42.5"
               Start="0,0"
-              End="292.6,75">
+              End="0,35">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20.8001737619461" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.8001737619461"
-                    Point2="0,24.8001737619461"
-                    Point3="4,24.8001737619461" />
+                    End="0,35" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="172,42"
+          Id="Package\Truncate Regiones"
+          TopLeft="106.25,168.75" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Truncate Productos"
+          TopLeft="452.5,27.5" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Truncate Stock"
+          TopLeft="801.25,148.75" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Truncate MySQL"
+          TopLeft="691.25,313.75" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Truncate SQL"
+          TopLeft="458.75,316.25" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="533.75,69.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,24.75"
+              Start="0,0"
+              End="0,17.25">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="288.6,24.8001737619461" />
-                  <mssgle:CubicBezierSegment
-                    Point1="288.6,24.8001737619461"
-                    Point2="292.6,24.8001737619461"
-                    Point3="292.6,28.8001737619461" />
+                    End="0,17.25" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 3]"
+          TopLeft="192.25,210.75">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="8.46428571428572,47.3214285714286"
+              Start="0,0"
+              End="8.46428571428572,39.8214285714286">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="292.6,75" />
+                    End="0,19.6607142857143" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.6607142857143"
+                    Point2="0,23.6607142857143"
+                    Point3="4,23.6607142857143" />
+                  <mssgle:LineSegment
+                    End="4.46428571428572,23.6607142857143" />
+                  <mssgle:CubicBezierSegment
+                    Point1="4.46428571428572,23.6607142857143"
+                    Point2="8.46428571428572,23.6607142857143"
+                    Point3="8.46428571428572,27.6607142857143" />
+                  <mssgle:LineSegment
+                    End="8.46428571428572,39.8214285714286" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 4]"
+          TopLeft="543.375,358.25">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,65.5"
+              Start="0,0"
+              End="0,58">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,58" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3825,7 +3966,7 @@
     design-time-name="Package\Carga Empleados">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="144,42"
           Id="Package\Carga Empleados\Excel Source"
@@ -3853,7 +3994,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -3889,15 +4032,15 @@
     design-time-name="Package\Carga MySQL Billing">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="205,42"
-          Id="Package\Carga MySQL Billing\Carga Stage Billing Mysql"
-          TopLeft="487,120" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="163,42"
           Id="Package\Carga MySQL Billing\stg_billing_mysql"
           TopLeft="508.5,223.5" />
+        <NodeLayout
+          Size="205,42"
+          Id="Package\Carga MySQL Billing\Carga Stage Billing Mysql"
+          TopLeft="487,120" />
         <EdgeLayout
           Id="Package\Carga MySQL Billing.Paths[ODBC Source Output]"
           TopLeft="589.75,162">
@@ -3917,17 +4060,45 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga MySQL Billing\Carga Stage Billing Mysql">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga MySQL Billing\stg_billing_mysql">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Carga Productos">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="143,42"
           Id="Package\Carga Productos\stg_producto"
@@ -3967,7 +4138,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -3990,7 +4163,7 @@
     design-time-name="Package\Carga Regiones">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="136,42"
           Id="Package\Carga Regiones\stg_regions"
@@ -4018,7 +4191,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4028,7 +4203,7 @@
     design-time-name="Package\Carga SQL Billing">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="177,42"
           Id="Package\Carga SQL Billing\stg_billing_SQL"
@@ -4056,7 +4231,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4092,15 +4269,15 @@
     design-time-name="Package\Carga Stock">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="156,42"
-          Id="Package\Carga Stock\Flat File Source"
-          TopLeft="437.5,141.5" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="177,42"
           Id="Package\Carga Stock\OLE DB Destination"
           TopLeft="427.5,233.5" />
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Carga Stock\Flat File Source"
+          TopLeft="437.5,141.5" />
         <EdgeLayout
           Id="Package\Carga Stock.Paths[Flat File Source Output]"
           TopLeft="515.75,183.5">
@@ -4120,7 +4297,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4128,32 +4307,6 @@
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\Carga Stock\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga MySQL Billing\Carga Stage Billing Mysql">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga MySQL Billing\stg_billing_mysql">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
