@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="39"
-  DTS:VersionGUID="{9BED960E-D306-4E94-B73D-57408E99CA0E}">
+  DTS:VersionBuild="41"
+  DTS:VersionGUID="{3E961A84-B076-468A-A1BE-166EC0372D73}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrx3tHzeWE+G0ReVkv90RgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAClUL5aqx9maSJBKDmTZ5VcnB44j3tgN0hvlZ/8GxKUEQAAAAAOgAAAAAIAACAAAABwMnwmomicuARJVKnFbCOn+xbZrNzXiZx4wpqaVwk3USAAAAAzw+fZq8yJC9fZMxD1EKX0DK8OgQlesAdNMSn4qQ55EUAAAAA4/RAL8ehLixkM28REmglqgQKeFq4Pu70bCWJYLU8hMVSC7ABd0TZfwUg1cPTig8/xC6XWBZieMGQkVvi5JQ0A</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrx3tHzeWE+G0ReVkv90RgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADauGvaG7J5YbzTFqAOUsl3rbI81e7wQHS37C5ca1ShPwAAAAAOgAAAAAIAACAAAADi0pYlNS5MI5xhoRKUiZiNuYUD4OICJYOVuztQOJsxbyAAAACNId35e8gUIXJh5hzpie0bDDI96tyL7xcnu17EnUC4Y0AAAABEkPVuvYv8WGyESYG7H3/WJUHOwtvCMBfvlfNVMM/yMLcDqkVC96grGwGzuuKitaPhReqUHIaLAWG/bYL9Gsjx</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -56,7 +56,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrx3tHzeWE+G0ReVkv90RgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABTAPiKwBk6m06y6BTpPP1G00j2ffi/pZIR3jaL0O+ghgAAAAAOgAAAAAIAACAAAABZwgEAKsuv/pRX9+GiqjObIDAptllhuVSYYcrFoD5FWSAAAABMA550l+78ZI9wLrKJC5qfVBRRMq1mLeh6TN7+dxnGc0AAAAAj0ODj5ZpxpEfhowrlNn0SNVVzMoPLMaIsZLiOhjuyZqJh3Wvil/Vfo5fQIcWlXw6LqVkX6u4cHV+OsVSNFQiv</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrx3tHzeWE+G0ReVkv90RgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAY/iyLGa2tNDsrEGTM8Gx4KsAAZ+tYoY3GI7DrZizGHQAAAAAOgAAAAAIAACAAAACTRut15FSAgaAmmPRVWrM/+mX0sNasIMyAOHzjnPCs9iAAAABF1LltEISXa3FHn8KxBR+9smtneSYS1oFQOOwMiIh0OEAAAAAOdytb/uAxEjdaQLVOAt0M3P667eLVAP8Tm9cyXx1NinHU2fGP/GF64QrOCSAQTFn2Pnp7cwvAxlxvfi50XhO7</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -71,7 +71,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrx3tHzeWE+G0ReVkv90RgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACfc9pxnQmgLusQLgIybFrk9ee+xZyIR/8lFokt+CAnUgAAAAAOgAAAAAIAACAAAADzF3Q3VhK+C8UTaBU2FGSyM3WUVKKzXaLjTOgbQeB3PCAAAAC1Nhz3ba0aTtQ5wYNkDsPPmFuMaEpeBk1JoMKx3wYfukAAAACPLtkugAwSl44riHmP7OACWbAYDOZVSZE83DBGp2UcSstC3Li+n8gHbAZr+hdzH7VQ232EqiiVrqqREAzQcwEx</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrx3tHzeWE+G0ReVkv90RgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAARRJf8i7/DRB4fuvju4t/VcDYT8kiN7Xr7JDeRuYTnaAAAAAAOgAAAAAIAACAAAADUA8DU0Y/H8g7OsvXHzJ8gIJxZhm0yPB9YkdiJ0KNC9SAAAADPZuc8BtVMzljbO2nMbdwL172LG/1Pnj7G7WRlNytPC0AAAABvbMVIy6fMMEwJK5Kg5B/YBI9xbPk6sWxzaRELS4x0F8vSDZXQHKwMWQNOkog0M7cq8JjhV82cQcdPzu+RmDgw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -4204,15 +4204,20 @@
           </components>
           <paths>
             <path
-              refId="Package\Dataflow Intermedia Cliente.Paths[OLE DB Source Output]"
-              endId="Package\Dataflow Intermedia Cliente\Add Cliente Minorista.Inputs[Derived Column Input]"
-              name="OLE DB Source Output"
-              startId="Package\Dataflow Intermedia Cliente\STG Customer_R.Outputs[OLE DB Source Output]" />
+              refId="Package\Dataflow Intermedia Cliente.Paths[Derived Column Output]"
+              endId="Package\Dataflow Intermedia Cliente\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Dataflow Intermedia Cliente\Add Cliente Minorista.Outputs[Derived Column Output]" />
             <path
               refId="Package\Dataflow Intermedia Cliente.Paths[OLE DB Source Output1]"
               endId="Package\Dataflow Intermedia Cliente\Add Cliente Mayorista.Inputs[Derived Column Input]"
               name="OLE DB Source Output"
               startId="Package\Dataflow Intermedia Cliente\STG Customer_W.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Dataflow Intermedia Cliente.Paths[OLE DB Source Output]"
+              endId="Package\Dataflow Intermedia Cliente\Add Cliente Minorista.Inputs[Derived Column Input]"
+              name="OLE DB Source Output"
+              startId="Package\Dataflow Intermedia Cliente\STG Customer_R.Outputs[OLE DB Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -4294,7 +4299,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate Regiones"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="6">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -4311,7 +4316,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate SQL"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -4328,7 +4333,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate Stock"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="6">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -4434,7 +4439,7 @@
         <NodeLayout
           Size="214,42"
           Id="Package\Dataflow Intermedia Cliente"
-          TopLeft="395.292365771813,518" />
+          TopLeft="416.292365771813,508" />
         <NodeLayout
           Size="173,42"
           Id="Package\Truncate Cliente"
@@ -5066,6 +5071,18 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="187,42"
+          Id="Package\Dataflow Intermedia Cliente\Add Cliente Mayorista"
+          TopLeft="333,164" />
+        <NodeLayout
+          Size="184,42"
+          Id="Package\Dataflow Intermedia Cliente\Add Cliente Minorista"
+          TopLeft="94,154" />
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Dataflow Intermedia Cliente\OLE DB Destination"
+          TopLeft="87.5,244.5" />
+        <NodeLayout
           Size="166,42"
           Id="Package\Dataflow Intermedia Cliente\STG Customer_R"
           TopLeft="95,63" />
@@ -5073,48 +5090,6 @@
           Size="169,42"
           Id="Package\Dataflow Intermedia Cliente\STG Customer_W"
           TopLeft="334,61" />
-        <NodeLayout
-          Size="184,42"
-          Id="Package\Dataflow Intermedia Cliente\Add Cliente Minorista"
-          TopLeft="94,154" />
-        <EdgeLayout
-          Id="Package\Dataflow Intermedia Cliente.Paths[OLE DB Source Output]"
-          TopLeft="178,105">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="8,49"
-              Start="0,0"
-              End="8,41.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.5"
-                    Point2="0,24.5"
-                    Point3="4,24.5" />
-                  <mssgle:LineSegment
-                    End="4,24.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="4,24.5"
-                    Point2="8,24.5"
-                    Point3="8,28.5" />
-                  <mssgle:LineSegment
-                    End="8,41.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="187,42"
-          Id="Package\Dataflow Intermedia Cliente\Add Cliente Mayorista"
-          TopLeft="333,164" />
         <EdgeLayout
           Id="Package\Dataflow Intermedia Cliente.Paths[OLE DB Source Output1]"
           TopLeft="418.5,103">
@@ -5149,10 +5124,74 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="177,42"
-          Id="Package\Dataflow Intermedia Cliente\OLE DB Destination"
-          TopLeft="87.5,262.5" />
+        <EdgeLayout
+          Id="Package\Dataflow Intermedia Cliente.Paths[OLE DB Source Output]"
+          TopLeft="178,105">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="8,49"
+              Start="0,0"
+              End="8,41.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.5"
+                    Point2="0,24.5"
+                    Point3="4,24.5" />
+                  <mssgle:LineSegment
+                    End="4,24.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="4,24.5"
+                    Point2="8,24.5"
+                    Point3="8,28.5" />
+                  <mssgle:LineSegment
+                    End="8,41.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Dataflow Intermedia Cliente.Paths[Derived Column Output]"
+          TopLeft="186,196">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-10,48.5"
+              Start="0,0"
+              End="-10,41">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.25"
+                    Point2="0,24.25"
+                    Point3="-4,24.25" />
+                  <mssgle:LineSegment
+                    End="-6,24.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-6,24.25"
+                    Point2="-10,24.25"
+                    Point3="-10,28.25" />
+                  <mssgle:LineSegment
+                    End="-10,41" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
